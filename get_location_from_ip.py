@@ -14,7 +14,7 @@ def get_location():
     data = response.json()
     latitude = data.get("lat")
     longitude = data.get("lon")
-    if latitude is not None and longitude is not None:
+    if latitude is not None and longitude is not None:    #si latitud es algo y si longitud es algo
       return latitude, longitude
     else:
       return None

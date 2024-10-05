@@ -1,8 +1,8 @@
-import streamlit as st
-from streamlit_folium import st_folium
-import folium
+import streamlit as st                   #librería de la página web
+from streamlit_folium import st_folium   #librería de la página web con folium
+import folium                            #Librería de geolocalización
 
-from get_location_from_ip import get_location
+from get_location_from_ip import get_location       #Librería dexter para obtener ubicación con IP
 
 st.title("Open Effectiveness UPY: Landsat data tracking platform")
 
