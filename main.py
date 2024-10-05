@@ -2,7 +2,9 @@ import streamlit as st
 from streamlit_folium import st_folium
 import folium
 
-st.title("This is the main file")
+from get_location_from_ip import get_location
+
+st.title("Open Effectiveness UPY: Landsat data tracking platform")
 
 def get_coordinates(map):
   """Retrieves coordinates from the map if a click event occurred."""
