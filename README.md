@@ -7,4 +7,8 @@ dependencies:
 How to use it?
 run in the terminal the following command:
 
-```streamlit run main.py```
+```streamlit run main.py```  
+
+if it doesn't work run:  
+
+```python3 -m streamlit run main.py```  
