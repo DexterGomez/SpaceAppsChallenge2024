@@ -2,6 +2,7 @@ Create an environment and install the following dependencies using 'pip install 
 dependencies:
 
 streamlit
+
 streamlit_folium
 
 
